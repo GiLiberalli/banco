@@ -10,18 +10,29 @@
   <script src="main.js"></script>
   </script>
   <?php include('functions.php'); ?>
+  <style>
+  .id {
+  background-color: lightblue;
+}
+  </style>
   </head>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.php">Home</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <a class="navbar-brand text-white" href="index.php">Banco Estácio</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="index.php">Principal <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="formpessoas.php">Inserir Pessoa</a>
+      <a class="nav-item nav-link text-white">|</a>
+      <a class="nav-item nav-link text-white" href="formpessoas.php">Inserir Pessoa</a>
+      <a class="nav-item nav-link text-white">|</a>
+      <a class="nav-item nav-link text-white" href="deposita.php">Depositar</a>
+      <a class="nav-item nav-link text-white" href="formpessoas.php">Sacar</a>
+      <a class="nav-item nav-link text-white" href="formpessoas.php">Transferir</a>
     </div>
   </div>
 </nav>
 </br>
+<div id="fb">
   <div class="col-md-10 offset-1">
+

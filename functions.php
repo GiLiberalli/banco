@@ -15,11 +15,8 @@ function listaPessoa(){
       echo "<td>".$row['nome']."</td>";
       echo "<td>".$row['saldo']."</td>";
       echo "<td>".$row['cpf']."</td>";
-      echo "<td><a class='btn btn-warning' href=alterar.php?id=".$row['id'].">Editar</a></td>";
-      echo "<td><a class='btn btn-danger' href=excluir.php?id=".$row['id'].">Excluir</a></td>";
-      echo "<td><a class='btn btn-primary' href=deposita.php?id=".$row['id'].">Depositar</a></td>";
-      echo "<td><a class='btn btn-primary' href=sacar.php?id=".$row['id'].">Sacar</a></td>";
-      echo "<td><a class='btn btn-primary' href=Transferir.php?id=".$row['id'].">Transferir</a></td>";
+      echo "<td><a class='btn btn-secondary' href=alterar.php?id=".$row['id'].">Editar</a></td>";
+      echo "<td><a class='btn btn-secondary' href=excluir.php?id=".$row['id'].">Excluir</a></td>";
       echo "</tr>";
     }
 }

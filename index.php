@@ -2,7 +2,7 @@
   <body>
     </br>
   </br>
-  <div class="border rounded">
+  <div class="rounded">
     <table class="table table-striped" id="tabela-pessoas">
   <thead>
     <tr>
@@ -12,10 +12,6 @@
       <th scope="col">CPF</th>
       <th scope="col"> Alterar</th>
       <th scope="col"> Excluir </th>
-      <th scope="col"> Depositar </th>
-      <th scope="col"> Sacar </th>
-      <th scope="col"> Transferir </th>
-
     </tr>
   </thead>
   <tbody>
